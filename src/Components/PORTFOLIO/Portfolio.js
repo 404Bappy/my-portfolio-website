@@ -18,13 +18,109 @@ const Portfolio = () => {
           <div className="pf_item_img">
             <img src={IMG1} alt="" />
           </div>
+          <h3>FitnessRevolution-APP</h3>
+          <div className="pf_CTA">
+            <a href="https://github.com/404Bappy/FitnessRevolution-APP" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="http://netlify.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG2} alt="" />
+          </div>
           <h3>Portfolio Item Title</h3>
-          <a href="http://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a href="http://netlify.com" className="btn btn-primary" target="_blank">
-            Live Demo
-          </a>
+          <div className="pf_CTA">
+            <a href="http://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="http://netlify.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG3} alt="" />
+          </div>
+          <h3>Portfolio Item Title</h3>
+          <div className="pf_CTA">
+            <a href="http://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="http://netlify.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Portfolio Item Title</h3>
+          <div className="pf_CTA">
+            <a href="http://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="http://netlify.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Portfolio Item Title</h3>
+          <div className="pf_CTA">
+            <a href="http://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="http://netlify.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Portfolio Item Title</h3>
+          <div className="pf_CTA">
+            <a href="http://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="http://netlify.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
