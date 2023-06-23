@@ -22,7 +22,7 @@ const About = () => {
             <article className="a-card">
               <FaAward className="aboutIcon" />
               <h5>Experience</h5>
-              <small>1+ Years Working Experience</small>
+              <small>1+ Years Working </small>
             </article>
             <article className="a-card">
               <LiaUsersCogSolid className="aboutIcon" />
@@ -32,9 +32,18 @@ const About = () => {
             <article className="a-card">
               <AiOutlineFolderAdd className="aboutIcon" />
               <h5>Projects</h5>
-              <small>60+ Completed Projects</small>
+              <small>60+ Completed </small>
             </article>
           </div>
+          <p>
+            I am a Jr. Software Engineer with the ability to learn and
+            collaborate in rapidly changing environments. Proficient in HTML,
+            CSS, Bootstrap, JavaScript, React and Node js. Excellent teamwork,
+            interpersonal and communication skills.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
