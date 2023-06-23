@@ -9,7 +9,7 @@ import { AiOutlineMessage } from "react-icons/ai";
 const Navbar = () => {
   return (
     <nav>
-      <a href="#">
+      <a href="#" className="active">
         <AiOutlineHome />
       </a>
       <a href="#about">
