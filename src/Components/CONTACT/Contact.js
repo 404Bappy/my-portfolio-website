@@ -1,20 +1,63 @@
 import React from "react";
 import "./Contact.css";
+import { MdOutlineEmail } from "react-icons/md";
+import { LiaFacebookMessenger } from "react-icons/lia";
+import { BsWhatsapp } from "react-icons/bs";
 
 const Contact = () => {
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
-      <h1>Contact Me</h1>
+      <h2>Contact Me</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
+            <MdOutlineEmail className="contact_icon" />
             <h4>Email</h4>
-            <h5></h5>
+            <h5>mbappy254@gmail.com</h5>
+            <a href="mailto:mbappy254@gmail.com" target="_blank">
+              Send A Message
+            </a>
+          </article>
+          <article className="contact_option">
+            <LiaFacebookMessenger className="contact_icon" />
+            <h4>Messenger</h4>
+            <h5>Arafat Bappy</h5>
+            <a href="https://m.me/arafat.bappy.779 " target="_blank">
+              Send A Message
+            </a>
+          </article>
+          <article className="contact_option">
+            <BsWhatsapp className="contact_icon" />
+            <h4>WhatsApp</h4>
+            <h5>+8801849675876</h5>
+            <a
+              href="https://api.whatsapp.com/send?phone+8801849675876"
+              target="_blank"
+            >
+              Send A Message
+            </a>
           </article>
         </div>
-        <form action=""></form>
+        <form action="" className="form">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Full Name"
+            required
+          />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
+        </form>
       </div>
     </section>
   );
