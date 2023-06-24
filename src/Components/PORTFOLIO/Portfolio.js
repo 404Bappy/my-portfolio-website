@@ -6,6 +6,9 @@ import IMG3 from "../../Assets/three.jpg";
 import IMG4 from "../../Assets/four.jpg";
 import IMG5 from "../../Assets/five.jpg";
 import IMG6 from "../../Assets/six.jpg";
+import IMG7 from "../../Assets/seven.jpg";
+import IMG8 from "../../Assets/eight.jpg";
+import IMG9 from "../../Assets/nine.jpg";
 
 const Portfolio = () => {
   return (
@@ -20,11 +23,15 @@ const Portfolio = () => {
           </div>
           <h3>FitnessRevolution-APP</h3>
           <div className="pf_CTA">
-            <a href="https://github.com/404Bappy/FitnessRevolution-APP" className="btn" target="_blank">
+            <a
+              href="https://github.com/404Bappy/FitnessRevolution-APP"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://netlify.com"
+              href="https://fitness-club-app-react.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -36,13 +43,13 @@ const Portfolio = () => {
           <div className="pf_item_img">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>Online_Book_Shop</h3>
           <div className="pf_CTA">
             <a href="http://github.com" className="btn" target="_blank">
               GitHub
             </a>
             <a
-              href="http://netlify.com"
+              href="https://404bappy.github.io/Online_Book_Shop/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -54,13 +61,17 @@ const Portfolio = () => {
           <div className="pf_item_img">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>Admin-Dashboard</h3>
           <div className="pf_CTA">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/404Bappy/Admin-Dashboard"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://netlify.com"
+              href="https://state-admin-dashboard.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -72,13 +83,17 @@ const Portfolio = () => {
           <div className="pf_item_img">
             <img src={IMG4} alt="" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>home-finders-app</h3>
           <div className="pf_CTA">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/404Bappy/home-finders-app"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://netlify.com"
+              href="https://home-finder-app.netlify.app/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -90,13 +105,17 @@ const Portfolio = () => {
           <div className="pf_item_img">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>dentist-portal</h3>
           <div className="pf_CTA">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/404Bappy/dentist-portal"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://netlify.com"
+              href="https://dentist-website-using-mern.netlify.app"
               className="btn btn-primary"
               target="_blank"
             >
@@ -108,13 +127,83 @@ const Portfolio = () => {
           <div className="pf_item_img">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Portfolio Item Title</h3>
+          <h3>TO-DO-List</h3>
           <div className="pf_CTA">
-            <a href="http://github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/404Bappy/TO-DO-List"
+              className="btn"
+              target="_blank"
+            >
               GitHub
             </a>
             <a
-              href="http://netlify.com"
+              href="https://my-to-do-apppp.netlify.app"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Lighting The World Font</h3>
+          <div className="pf_CTA">
+            <a
+              href="https://github.com/404Bappy/My-Lamp-Site"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://precious-chimera-e4ea0d.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG8} alt="" />
+          </div>
+          <h3>Expense Tracker App</h3>
+          <div className="pf_CTA">
+            <a
+              href="https://github.com/404Bappy/expense-tracker-app"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://expense-tracker0000.netlify.app/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="pf_item">
+          <div className="pf_item_img">
+            <img src={IMG9} alt="" />
+          </div>
+          <h3>Payment-Form</h3>
+          <div className="pf_CTA">
+            <a
+              href="https://github.com/404Bappy/Payment-Check-Out-Form"
+              className="btn"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://404bappy.github.io/Payment-Check-Out-Form/"
               className="btn btn-primary"
               target="_blank"
             >
