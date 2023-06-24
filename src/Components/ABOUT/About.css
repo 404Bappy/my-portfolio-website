@@ -50,8 +50,8 @@
 }
 
 .aboutIcon {
-  color: var(--color-primary);
   font-size: 1.4rem;
+  color: var(--color-primary);
 }
 
 .a-card h5 {
