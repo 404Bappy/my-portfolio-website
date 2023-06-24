@@ -5,7 +5,9 @@ import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <a href="" className="footer_logo">KB BAPPY</a>
+      <a href="" className="footer_logo">
+        KB BAPPY
+      </a>
 
       <ul className="permalinks">
         <li>
@@ -30,17 +32,17 @@ const Footer = () => {
 
       <div className="footer_socials">
         <a href="https://facebook.com">
-          <BsFacebook />
+          <BsFacebook size={20} />
         </a>
         <a href="https://instagram.com">
-          <BsInstagram />
+          <BsInstagram size={20} />
         </a>
         <a href="https://twitter.com">
-          <BsTwitter />
+          <BsTwitter size={20} />
         </a>
       </div>
       <div className="footer_copyright">
-          <small>&copy; KBB PlayGround. All rights reserved</small>
+        <small>&copy; KBB PlayGround. All rights reserved</small>
       </div>
     </footer>
   );
